@@ -71,7 +71,7 @@
     background-color: #45a049;
   }
 </style>
-<section id="menu" class="bg-no-repeat bg-[right_top_15rem] md:bg-right-top pt-8 md:pt-32 w-full" style="background-image: url({{ $foodBg }})">
+<section  id="menu" class="bg-no-repeat bg-[right_top_15rem] md:bg-right-top pt-8 md:pt-32 w-full" style="background-image: url({{ $foodBg }})">
   <div class="flex flex-col justify-around items-center food-sm:items-start max-w-[980px] mx-auto">
     <div class="food-sm:text-left m-4 max-w-sm mt-5 p-4 text-center">
       <h3 class="font-bold font-cursive-merie text-4xl leading-normal capitalize">

@@ -1,5 +1,5 @@
     <!-- Welcome Area Starts -->
-    <section id="about" class="flex flex-wrap item-center justify-center lg-p-0 lg:justify-between lg:p-0 lg:pt-28 max-w-[960px] mx-auto p-5">
+    <section  id="about" class="flex flex-wrap item-center justify-center lg-p-0 lg:justify-between lg:p-0 lg:pt-28 max-w-[960px] mx-auto p-5">
       <div class="basis-[500px] grow-0 pr-5">
         <img class="h-auto w-full" src="assets/images/welcome-bg.png" alt="welcome food image" />
       </div>

@@ -1,5 +1,5 @@
     <!-- Deshes Area Starts -->
-    <section class="py-32 mx-auto max-w-[960px]">
+    <section  class="py-32 mx-auto max-w-[960px]">
       <div class="m-4 max-w-md mt-5 mb-11 p-4 text-center mx-auto">
         <h3 class="font-bold font-cursive-merie text-4xl leading-normal capitalize">Our <span class="text-amber-400 leading-snug">special</span> dishes</h3>
         <p class="pt-2 text-[14px] font-sans-lato text-slate-600 leading-relaxed">Beast kind form divide night above let moveth bearing darkness.</p>
