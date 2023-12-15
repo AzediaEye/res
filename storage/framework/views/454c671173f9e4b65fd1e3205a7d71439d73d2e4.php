@@ -1,7 +1,5 @@
 <style>
-  /* Add this style within your HTML file or link to an external stylesheet */
 
-  /* Comments Section */
   .comments-section {
     margin-top: 2rem;
   }
@@ -17,7 +15,6 @@
     color: #666;
   }
 
-  /* Individual Comment */
   .comment {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -150,10 +147,7 @@
 
         alert("Comment by ajax has been created. page will be reloaded and comment will view");
         window.location.href = "";
-        // Handle the response (e.g., update the comments dynamically)
-        // $('#comments-container').append(response);
-        // Clear the textarea after posting
-        // $('#comment').val('');
+        
       },
       error: function(xhr) {
         console.error(xhr.responseText);

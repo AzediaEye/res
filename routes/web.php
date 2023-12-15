@@ -76,3 +76,4 @@ Route::get('food/{id}', [FoodMenuController::class, 'getFood'])->name('food.deta
 Route::post('food/comment/{id}', [FoodMenuController::class, 'postComment'])->name('food.comment');
 
 Route::post('food/reply/{id}/{commentId}', [FoodMenuController::class, 'postReply'])->name('food.reply');
+Route::get('/api/user/get-array', [UserController::class, 'getArray']);

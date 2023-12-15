@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use App\Models\Food;
 
 
 class UserController extends Controller
@@ -48,4 +49,15 @@ class UserController extends Controller
         }
         return redirect()->route('user.index')->with('msg', 'User deleted successfully');
     }
+    public function getArray()
+    {
+        $fooddata = food::all();
+        $data = [
+            'message' => 'Hello, this is a simple array from the UserController to get food item!',
+            'values' => $fooddata,
+        ];
+
+        return response()->json($data);
+    }
+
 }
